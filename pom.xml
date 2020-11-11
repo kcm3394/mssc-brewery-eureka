@@ -11,7 +11,7 @@
     <groupId>guru.sfg.brewery.eureka</groupId>
     <artifactId>msscbreweryeureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>msscbreweryeureka</name>
+    <name>mssc-brewery-eureka</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -23,6 +23,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>6.3</version>
         </dependency>
 
         <dependency>
